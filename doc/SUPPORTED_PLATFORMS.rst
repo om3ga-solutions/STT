@@ -1,13 +1,13 @@
 .. _supported-platforms-deployment:
 
-Supported platforms
+Podržane platforme
 ===================
 
-Here we maintain the list of supported platforms for deployment.
+Ovde održavamo listu podržanih platformi za primenu.
 
 Linux / AMD64
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-* x86-64 CPU with AVX/FMA (one can rebuild without AVX/FMA, but it might slow down performance)
+* x86-64 CPU with AVX/FMA (može se bildovati bez AVX/FMA, ali to može usporiti performanse)
 * glibc >= 2.24, libstdc++6 >= 6.3
 * TensorFlow Lite runtime
 
@@ -39,12 +39,12 @@ Android / Aarch64
 
 macOS / AMD64
 ^^^^^^^^^^^^^
-* x86-64 CPU with AVX/FMA (one can rebuild without AVX/FMA, but it might slow down performance)
+* x86-64 CPU with AVX/FMA (može se bildovati bez AVX/FMA, ali to može usporiti performanse)
 * macOS >= 10.10
 * TensorFlow Lite runtime
 
 Windows / AMD64
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-* x86-64 CPU with AVX/FMA (one can rebuild without AVX/FMA, but it might slow down performance)
+* x86-64 CPU with AVX/FMA (može se bildovati bez AVX/FMA, ali to može usporiti performanse)
 * Windows Server >= 2012 R2 ; Windows >= 8.1
 * TensorFlow Lite runtime

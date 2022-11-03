@@ -1,16 +1,18 @@
 .. _exporting-checkpoints:
 
-Exporting a model for deployment
+Izvoz modela
 ================================
 
-After you train a STT model, your model will be stored on disk as a :ref:`checkpoint file <checkpointing>`. Model checkpoints are useful for resuming training at a later date, but they are not the correct format for deploying a model into production. The model format for deployment is a TFLite file.
+Nakon što obučite STT model, vaš model će biti sačuvan na disku kao :ref:`checkpoint file <checkpointing>`. 
+Kontrolne tačke modela su korisne za nastavak obuke kasnije, ali nisu pravi format za primenu modela u proizvodnji.
+Format modela za primenu je TFLite datoteka.
 
-This document explains how to export model checkpoints as a TFLite file.
+Ovaj dokument objašnjava kako da izvezete kontrolne tačke modela kao TFLite datoteku.
 
-How to export a model
+Kako izvesti model
 ---------------------
 
-You can export STT model checkpoints for deployment by using the export script and the ``--export_dir`` flag.
+Možete da izvezete kontrolne tačke STT modela za primenu pomoću skripte za izvoz  ``--export_dir`` oznake.
 
 .. code-block:: bash
 

@@ -1,51 +1,47 @@
-.. Coqui STT documentation main file, created by
-   sphinx-quickstart on Thu Feb  2 21:20:39 2017.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Daktilograf STT dokumentacija glavni fajl.
 
-.. image:: https://raw.githubusercontent.com/coqui-ai/STT/main/images/coqui-STT-logo-green.png
-  :alt: Coqui STT logo and wordmark
+ Možete da prilagodite ovu datoteku u potpunosti, ali bi trebalo da sadrži direktivu `toctree` 
 
-**Coqui STT** (🐸STT) is an open-source deep-learning toolkit for training and deploying speech-to-text models.
+.. image:: https://github.com/OM3GA-SOLUTIONS-d-o-o/daktilograf-V3-client/raw/main/images/dakt-stt-gh.png
+  :alt: Daktilograf STT logo and wordmark
 
-🐸STT is battle tested in both production and research 🚀
+**STT** (Daktilograf STT) je komplet open source deep learning alata za trening i primenu modela transkripcije govora u tekst.
+
+Daktilograf STT je testiran i u proizvodnji i u istraživanju.
 
 
 .. toctree::
    :maxdepth: 1
    :caption: Quick Reference
 
-   DEPLOYMENT
+ RAZVOJ
 
-   TRAINING_INTRO
+ TRENING_UVOD
 
-   TRAINING_ADVANCED
+ TRENING_NAPREDNI
 
-   BUILDING
+ BILD
 
-Quickstart
-^^^^^^^^^^
-
-The fastest way to use a pre-trained 🐸STT model is with the 🐸STT model manager, a tool that lets you quickly test and demo models locally. You'll need Python 3.6, 3.7, 3.8 or 3.9:
+Najbrži način da koristite unapred obučeni Daktilograf STT model je pomoću Daktilograf STT modela menadžera, alata koji vam omogućava da brzo lokalno testirate demo modele. Trebaće vam Python 3.6, 3.7, 3.8 ili 3.9:
 
 .. code-block:: bash
 
-   # Create a virtual environment
+   # Napravi virtuelno okruženje
    $ python3 -m venv venv-stt
    $ source venv-stt/bin/activate
 
-   # Install 🐸STT model manager
+   # Instaliraj Daktilograf STT model menadžer
    $ python -m pip install -U pip
    $ python -m pip install coqui-stt-model-manager
 
-   # Run the model manager. A browser tab will open and you can then download and test models from the Model Zoo.
+   # Pokrenite menadžer modela. Otvoriće se kartica pretraživača i tada možete preuzeti i testirati modele iz Model Zoo-a.
    $ stt-model-manager
 
 .. toctree::
    :maxdepth: 1
    :caption: API Reference
 
-   Error-Codes
+   Kodovi grešaka
 
    C-API
 
@@ -59,21 +55,21 @@ The fastest way to use a pre-trained 🐸STT model is with the 🐸STT model man
 
 .. toctree::
    :maxdepth: 1
-   :caption: Examples
+   :caption: Primeri
 
-   Python-Examples
+   Python-Primeri
 
-   NodeJS-Examples
+   NodeJS-Primeri
 
-   C-Examples
+   C-Primeri
 
-   DotNet-Examples
+   DotNet-Primeri
 
-   Java-Examples
+   Java-Primeri
 
-   HotWordBoosting-Examples
+   HotWordBoosting-Primeri
 
-   Contributed-Examples
+   Contributed-Primeri
 
 .. toctree::
    :maxdepth: 1
@@ -100,7 +96,7 @@ The fastest way to use a pre-trained 🐸STT model is with the 🐸STT model man
    PARALLEL_OPTIMIZATION
 
 
-Indices and tables
+Indeksi i tabele
 ==================
 
 * :ref:`genindex`

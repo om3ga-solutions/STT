@@ -1,7 +1,7 @@
 breathe==4.27.0
 semver==2.8.1
 sphinx==3.5.2
-# Upstream Sphinx-JS doesn't work with Python 3.9+, and PRs are not being merged
+# Upstream Sphinx-JS Ne radi sa Python 3.9+, PR se ne spajaju
 # See for example https://github.com/mozilla/sphinx-js/pull/184
 git+https://github.com/reuben/sphinx-js.git@e222ef7fbbbc0a119aa32568137ee5f4e9a2f33e
 furo==2021.2.28b28

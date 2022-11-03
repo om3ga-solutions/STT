@@ -1,9 +1,7 @@
-.. _training-flags:
+Oznake komandne linije za skriptu treninga
+============================================
 
-Command-line flags for the training scripts
-===========================================
-
-Below you can find the definition of all command-line flags supported by the training modules. This includes the modules ``coqui_stt_training.train``, ``coqui_stt_training.evaluate``, ``coqui_stt_training.export``, ``coqui_stt_training.training_graph_inference``, and the scripts ``evaluate_tflite.py``, ``transcribe.py`` and ``lm_optimizer.py``.
+Ispod možete pronaći definiciju svih oznaka komandne linije koje podržavaju moduli za trening. Ovo uključuje module ``coqui_stt_training.train``, ``coqui_stt_training.evaluate``, ``coqui_stt_training.export``, ``coqui_stt_training.training_graph_inference``, and the scripts ``evaluate_tflite.py``, ``transcribe.py`` and ``lm_optimizer.py``.
 
 Flags
 -----

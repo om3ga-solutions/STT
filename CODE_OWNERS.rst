@@ -1,7 +1,7 @@
-Coqui STT code owners / governance system
+Daktilograf STT code owners / governance system
 =========================================
 
-🐸STT is run under a governance system inspired (and partially copied from) by the `Mozilla module ownership system <https://www.mozilla.org/about/governance/policies/module-ownership/>`_. The project is roughly divided into modules, and each module has its own owners, which are responsible for reviewing pull requests and deciding on technical direction for their modules. Module ownership authority is given to people who have worked extensively on areas of the project.
+Daktilograf STT is run under a governance system inspired (and partially copied from) by the `Mozilla module ownership system <https://www.mozilla.org/about/governance/policies/module-ownership/>`_. The project is roughly divided into modules, and each module has its own owners, which are responsible for reviewing pull requests and deciding on technical direction for their modules. Module ownership authority is given to people who have worked extensively on areas of the project.
 
 Module owners also have the authority of naming other module owners or appointing module peers, which are people with authority to review pull requests in that module. They can also sub-divide their module into sub-modules with their own owners.
 
@@ -113,4 +113,4 @@ Documentation
 .. Third party bindings
    --------------------
 
-   Hosted externally and owned by the individual authors. See the `list of third-party bindings <https://stt.readthedocs.io/en/latest/   USING.html#third-party-bindings>`_ for more info.
+   Hosted externally and owned by the individual authors. See the `list of third-party bindings <https://daktilograf3.readthedocs.io/en/latest/   USING.html#third-party-bindings>`_ for more info.

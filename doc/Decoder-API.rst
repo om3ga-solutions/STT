@@ -1,6 +1,6 @@
 .. _decoder-api:
 
-Decoder API reference
+Decoder API 
 =====================
 
 .. automodule:: native_client.ctcdecode
